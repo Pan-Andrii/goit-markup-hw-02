@@ -1,23 +1,61 @@
+:root {
+  --white: #fff;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+}
 /* Common styles */
 body {
   font-family: Roboto, Raleway;
-  color: ;
-  background-color: #fff;
+  color: var(--navyblue, #2e2f42);
+  background-color: var(--white);
 }
-a {
-  text-decoration: none;
+.titltwo {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.headthree {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate, #434455);
 }
 
+/* Resets */
+.link,
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+.address {
+  font-style: normal;
+}
+.list,
 ul {
   list-style-type: none;
 }
-.page-title {
-  color: var(--white, #fff);
+/*  */
+.hero-title {
+  color: var(--white);
   font-size: 56px;
-  font-family: Roboto;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
+}
+.btn,
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /* Header */
@@ -33,7 +71,7 @@ ul {
 }
 
 .head-logo-web {
-  color: #4d5ae5;
+  color: var(--iris);
 }
 .header-list {
 }
@@ -41,7 +79,6 @@ ul {
 }
 .header-link {
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -55,11 +92,49 @@ ul {
 .hero {
   background-color: #2e2f42;
 }
+/* Button Text */
+.hero-btn {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--iris);
+}
+/*  */
 .team {
   background-color: #f4f4fd;
 }
-
+/*  */
+.card-link {
+  background-color: var(--white);
+}
 /* */
 .page-footer {
   background-color: #2e2f42;
+}
+.footer-logo {
+  color: var(--cloud);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-loge-web {
+  color: var(--iris);
+}
+.footer-text {
+  color: var(--cloud);
+}
+/* porfolio */
+.filtr-btn {
+  color: var(--iris);
+  text-align: center;
+  /* Button Text */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
