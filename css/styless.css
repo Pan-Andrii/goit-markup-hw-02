@@ -89,13 +89,14 @@ button {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-btn {
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   background-color: var(--iris, #4d5ae5);
 }
 .hero-btn:hover,
@@ -133,6 +134,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .doing-list {
 }
@@ -149,6 +151,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list {
 }
@@ -189,7 +192,7 @@ button {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* PORTFOLIO */
@@ -204,6 +207,7 @@ button {
 }
 .filter-btn-text {
   color: var(--iris, #4d5ae5);
+  background-color: var(--cloud, #f4f4fd);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -225,7 +229,7 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
 }
 .project-text {
   color: var(--slate, #434455);
@@ -234,5 +238,5 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
